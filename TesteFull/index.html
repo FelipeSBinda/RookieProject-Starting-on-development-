@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        div id{
+            background-color: aliceblue;
+            color:black;
+            float:right;
+            border-width: medium;
+        }
+    </style>
+    
+    <script>
+    function time(){
+        today=new Date();
+        h=today.getHours();
+        m=today.getMinutes();
+        s=today.getSeconds();
+        document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+        setTimeout('time()',500);
+}
+    </script>
+</head>
+<body onload="time()">
+<div id="txt"></div>
+    <header>
+        <ol>
+        <li><a href="index.html">Página inicial</a></li>
+        </ol>
+    </header>
+    <main>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
