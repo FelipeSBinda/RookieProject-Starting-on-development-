@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inno</title>
+    <link rel="icon" type="imagem/png" href="../root/icon/innovation.png">
+    <link
+        href="https://fonts.googleapis.com/css?family=DM+Sans|Lato|Montserrat|Muli|Noto+Sans|Open+Sans|Oswald|PT+Sans|Raleway|Roboto|Roboto+Condensed|Roboto+Slab|Source+Sans+Pro|Titillium+Web|Ubuntu&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../root/estilo/default.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/JavaScript" src="../root/script/plugins/jplayer/jquery.jplayer.min.js"></script>
+    <script type="text/JavaScript" src="../root/script/default.js"></script>
+</head>
+
+<body onload="time()">
+    <div class="top-bar">
+        <div class="container">
+            <div class="player-controls">
+                <span class="player-prev"><img src="../root/icon/016-previous.png"></span>
+                <span class="player-play"><img src="../root/icon/012-play-button.png"></span>
+                <span class="player-pause"><img src="../root/icon/013-pause.png"></span>
+                <span class="player-stop"><img src="../root/icon/014-stop.png"></span>
+                <span class="player-next"><img src="../root/icon/015-next.png"></span>
+            </div>
+            <div class="player"></div>
+            <div class="player-timeline">
+                <div class="player-timeline-control"></div>
+            </div>
+            <div class="player-display">
+                Playing:<span class="player-current-track"></span>
+            </div>
+        </div>
+    </div>
+    <div id="data-hora">
+    </div>
+    <header>
+        <div class="logo">
+            <a href="../index-inno.html"><img src="" alt="inno"></a>
+        </div>
+    </header>
+    <nav id="menu-barra">
+        <ul>
+            <li><a href="sobre-nos.html">conheça a inno</a></li>
+            <li><a href="inno-servico.html">nossos serviços</a></li>
+            <li><a href="inno-conteudo.html">nossos conteúdos</a></li>
+        </ul>
+        <nav id="barra-lateral">
+        </nav>
+    </nav>
+    <main>
+        <div class="site">
+            <h1>Conhecimento a partir da inovação para fazer diferente.</h1>
+        </div>
+    </main>
+
+    <footer>
+        <div class="acessocast">
+            <h3>Quer ouvir tudo sobre inovação? Acesse o <a href="../index-cast.html">InnoCast</a>, o podcast da Inno!</h3>
+        </div>
+        <nav class="footer-container">
+            <div class="mapa-site">
+                <h4>A Inno</h4>
+                <ul>
+                    <li><a href="sobre-nos.html">conheça a inno</a></li>
+                    <li><a href="inno-servico.html">nossos serviços</a></li>
+                    <li><a href="inno-conteudo.html">nossos conteúdos</a></li>
+                </ul>
+            </div>
+            <div class="formulario">
+                <h5>Cadastre-se para receber nosso conteúdo diariamente:</h5>
+                <div></div>
+                <form action="newsletter">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="email" placeholder="Insira seu nome">
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" placeholder="nome@correio.com">
+                    <button type="submit"
+                        onclick="alert('Obrigado por se juntar a inno, caso não queira mais receber os e-mails, descadastre-se a partir dos proprios e-mails que serão enviados para você')">Junte-se
+                        ao grupo de inscritos</button>
+                </form>
+            </div>
+            <div class="logo">
+                <h4>A Inno é um site de conhecimento de inovção para quem busca fazer algo diferente na empresa.</h4>
+                <img src="" alt="inno">
+            </div>
+        </nav>
+        <p>&copy;Powered by Element</p>
+    </footer>
+    <script src="../root/script/date-hour.js"></script>
+</body>
+
+</html>
